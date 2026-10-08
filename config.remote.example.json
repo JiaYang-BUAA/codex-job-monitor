@@ -1,0 +1,20 @@
+{
+  "thread_id": "REPLACE_WITH_CODEX_THREAD_ID",
+  "cwd": "E:\\Projects\\example",
+  "cdp_url": "http://127.0.0.1:9335",
+  "runtime_dir": "runtime",
+  "poll_seconds": 15,
+  "pwsh": "pwsh",
+  "target": {
+    "mode": "remote",
+    "ssh_host": "compute-server",
+    "job_directory": "E:\\Jobs\\example-run",
+    "job_id": "example-run-001",
+    "job_name": "Example computation",
+    "probe_file": "scripts\\probe_remote_target.ps1",
+    "owned_file": "owned-processes.json",
+    "summary_file": "output\\summary.json",
+    "launch_file": "launch.json",
+    "driver_exit_file": "driver-exit.json"
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+/*.json
+!/config.example.json
+!/config.remote.example.json
+runtime/
+dist/
+*.log
+*.zip
+.env
+.env.*
+.pytest_cache/
+demo-run/

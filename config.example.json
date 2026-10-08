@@ -1,0 +1,12 @@
+{
+  "thread_id": "REPLACE_WITH_CODEX_THREAD_ID",
+  "cwd": "E:\\Projects\\example",
+  "cdp_url": "http://127.0.0.1:9335",
+  "runtime_dir": "runtime",
+  "poll_seconds": 15,
+  "pwsh": "pwsh",
+  "target": {
+    "mode": "local",
+    "job_directory": "E:\\Jobs\\example-run"
+  }
+}
