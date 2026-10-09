@@ -42,7 +42,7 @@ class CliTests(unittest.TestCase):
 
     def test_runtime_relative_to_config_not_working_directory(self):
         config = monitor.load_config(self.config_path)
-        self.assertEqual(config['runtime_dir'], str(self.root / 'runtime'))
+        self.assertEqual(config['runtime_dir'], str((self.root / 'runtime').resolve()))
 
     def test_init_refuses_overwrite(self):
         before = self.config_path.read_bytes()
